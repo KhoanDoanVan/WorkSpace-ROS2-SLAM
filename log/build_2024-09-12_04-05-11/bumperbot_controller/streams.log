@@ -1,0 +1,17 @@
+[0.010s] Invoking command in '/home/ubuntu/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/bumperbot_ws/build/bumperbot_controller -- -j4 -l4
+[0.045s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[0.065s] [ 50%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.224s] running egg_info
+[0.225s] creating bumperbot_controller.egg-info
+[0.226s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.226s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.226s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.226s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.238s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.238s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.279s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[11.764s] [ 75%] [32m[1mLinking CXX executable noisy_controller[0m
+[12.477s] [ 75%] Built target noisy_controller
+[18.242s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[18.613s] [100%] Built target simple_controller

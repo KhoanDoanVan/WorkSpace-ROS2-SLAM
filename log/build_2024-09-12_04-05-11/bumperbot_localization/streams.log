@@ -1,0 +1,17 @@
+[0.052s] Invoking command in '/home/ubuntu/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/bumperbot_ws/build/bumperbot_localization -- -j4 -l4
+[0.144s] [ 25%] [32mBuilding CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o[0m
+[0.155s] [ 25%] Built target ament_cmake_python_copy_bumperbot_localization
+[0.163s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.o[0m
+[0.487s] running egg_info
+[0.487s] creating bumperbot_localization.egg-info
+[0.487s] writing bumperbot_localization.egg-info/PKG-INFO
+[0.487s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[0.488s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[0.488s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.491s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.492s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.545s] [ 50%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[11.565s] [ 75%] [32m[1mLinking CXX executable imu_republisher[0m
+[12.221s] [ 75%] Built target imu_republisher
+[12.238s] [100%] [32m[1mLinking CXX executable kalman_filter[0m
+[12.588s] [100%] Built target kalman_filter
