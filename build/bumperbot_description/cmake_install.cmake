@@ -49,6 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/ubuntu/bumperbot_ws/src/bumperbot_description/models"
     "/home/ubuntu/bumperbot_ws/src/bumperbot_description/urdf"
     "/home/ubuntu/bumperbot_ws/src/bumperbot_description/rviz"
+    "/home/ubuntu/bumperbot_ws/src/bumperbot_description/worlds"
     )
 endif()
 

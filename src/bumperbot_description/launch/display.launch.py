@@ -16,6 +16,7 @@ def generate_launch_description():
                                         bumperbot_description_dir, "urdf", "bumperbot.urdf.xacro"
                                         ),
                                       description="Absolute path to robot urdf file")
+    
 
     robot_description = ParameterValue(Command(["xacro ", LaunchConfiguration("model")]),
                                        value_type=str)

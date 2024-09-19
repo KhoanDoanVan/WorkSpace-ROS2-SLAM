@@ -1,0 +1,118 @@
+[0.011s] Invoking command in '/home/ubuntu/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /home/ubuntu/bumperbot_ws/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/home/ubuntu/bumperbot_ws/install/bumperbot_firmware
+[0.166s] -- The C compiler identification is GNU 11.4.0
+[0.211s] -- The CXX compiler identification is GNU 11.4.0
+[0.217s] -- Detecting C compiler ABI info
+[0.279s] -- Detecting C compiler ABI info - done
+[0.283s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.283s] -- Detecting C compile features
+[0.283s] -- Detecting C compile features - done
+[0.285s] -- Detecting CXX compiler ABI info
+[0.351s] -- Detecting CXX compiler ABI info - done
+[0.356s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.356s] -- Detecting CXX compile features
+[0.356s] -- Detecting CXX compile features - done
+[0.363s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.477s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.559s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.598s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.603s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.612s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.627s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.683s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.686s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.768s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.784s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.808s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.820s] -- Looking for pthread.h
+[0.910s] -- Looking for pthread.h - found
+[0.910s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.972s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.973s] -- Found Threads: TRUE  
+[1.022s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[1.023s] -- Found hardware_interface: 2.43.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.157s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.157s] -- Checking for module 'libserial'
+[1.162s] --   Found libserial, version 1.0.0
+[1.275s] -- Configuring done
+[1.326s] -- Generating done
+[1.326s] -- Build files have been written to: /home/ubuntu/bumperbot_ws/build/bumperbot_firmware
+[1.332s] Invoked command in '/home/ubuntu/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /home/ubuntu/bumperbot_ws/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/home/ubuntu/bumperbot_ws/install/bumperbot_firmware
+[1.332s] Invoking command in '/home/ubuntu/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/bumperbot_ws/build/bumperbot_firmware -- -j4 -l4
+[1.416s] [35m[1mConsolidate compiler generated dependencies of target simple_serial_transmitter[0m
+[1.422s] [35m[1mConsolidate compiler generated dependencies of target simple_serial_receiver[0m
+[1.422s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_firmware[0m
+[1.424s] [  0%] Built target ament_cmake_python_copy_bumperbot_firmware
+[1.445s] [ 16%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[1.446s] [ 33%] [32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.o[0m
+[1.448s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[1.888s] running egg_info
+[1.888s] writing bumperbot_firmware.egg-info/PKG-INFO
+[1.888s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[1.888s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[1.898s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.910s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[1.968s] [ 50%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[4.242s] [ 66%] [32m[1mLinking CXX shared library libbumperbot_firmware.so[0m
+[4.403s] [ 66%] Built target bumperbot_firmware
+[5.167s] [ 83%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[5.278s] [ 83%] Built target simple_serial_receiver
+[6.595s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[6.805s] [100%] Built target simple_serial_transmitter
+[6.819s] Invoked command in '/home/ubuntu/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/bumperbot_ws/build/bumperbot_firmware -- -j4 -l4
+[6.834s] Invoking command in '/home/ubuntu/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/bumperbot_ws/build/bumperbot_firmware
+[6.836s] -- Install configuration: ""
+[6.836s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[6.836s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[6.836s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info
+[6.837s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[6.837s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.837s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.837s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[6.837s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware
+[6.837s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py
+[6.837s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py
+[6.837s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/mpu6050_driver.py
+[6.837s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py
+[6.852s] Listing '/home/ubuntu/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware'...
+[6.852s] Compiling '/home/ubuntu/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py'...
+[6.852s] Compiling '/home/ubuntu/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/mpu6050_driver.py'...
+[6.852s] Compiling '/home/ubuntu/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py'...
+[6.852s] Compiling '/home/ubuntu/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py'...
+[6.855s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+[6.855s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[6.856s] -- Set runtime path of "/home/ubuntu/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so" to ""
+[6.856s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/include/include
+[6.856s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware
+[6.856s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+[6.856s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch
+[6.856s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[6.856s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[6.856s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[6.856s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/mpu6050_driver.py
+[6.856s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver
+[6.857s] -- Set runtime path of "/home/ubuntu/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver" to ""
+[6.857s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[6.859s] -- Set runtime path of "/home/ubuntu/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter" to ""
+[6.859s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[6.859s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[6.859s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[6.860s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[6.860s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[6.860s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[6.860s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[6.860s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[6.860s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[6.860s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[6.860s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[6.860s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[6.860s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[6.860s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[6.860s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[6.860s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.861s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[6.861s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.861s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[6.861s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[6.861s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[6.862s] Invoked command in '/home/ubuntu/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/bumperbot_ws/build/bumperbot_firmware

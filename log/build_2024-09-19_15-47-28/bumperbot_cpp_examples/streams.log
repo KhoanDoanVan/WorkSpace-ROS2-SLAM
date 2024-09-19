@@ -1,0 +1,96 @@
+[0.051s] Invoking command in '/home/ubuntu/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /home/ubuntu/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples
+[0.243s] -- The C compiler identification is GNU 11.4.0
+[0.325s] -- The CXX compiler identification is GNU 11.4.0
+[0.333s] -- Detecting C compiler ABI info
+[0.517s] -- Detecting C compiler ABI info - done
+[0.520s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.520s] -- Detecting C compile features
+[0.520s] -- Detecting C compile features - done
+[0.523s] -- Detecting CXX compiler ABI info
+[0.763s] -- Detecting CXX compiler ABI info - done
+[0.768s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.768s] -- Detecting CXX compile features
+[0.768s] -- Detecting CXX compile features - done
+[0.772s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.005s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.113s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.168s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.171s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.177s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.190s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.199s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.230s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.232s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.294s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.311s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.343s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.348s] -- Looking for pthread.h
+[1.475s] -- Looking for pthread.h - found
+[1.475s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.550s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.551s] -- Found Threads: TRUE  
+[1.585s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.613s] -- Found bumperbot_msgs: 0.0.0 (/home/ubuntu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake)
+[1.639s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[1.646s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.686s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.744s] -- Configuring done
+[1.789s] -- Generating done
+[1.794s] -- Build files have been written to: /home/ubuntu/bumperbot_ws/build/bumperbot_cpp_examples
+[1.802s] Invoked command in '/home/ubuntu/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /home/ubuntu/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples
+[1.803s] Invoking command in '/home/ubuntu/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[1.837s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[1.849s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[1.857s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[1.873s] [ 12%] Built target simple_subscriber
+[1.878s] [ 25%] Built target simple_publisher
+[1.884s] [35m[1mConsolidate compiler generated dependencies of target simple_service_client[0m
+[1.889s] [ 37%] Built target simple_parameter
+[1.897s] [35m[1mConsolidate compiler generated dependencies of target simple_service_server[0m
+[1.907s] [35m[1mConsolidate compiler generated dependencies of target simple_turtlesim_kinematics[0m
+[1.908s] [35m[1mConsolidate compiler generated dependencies of target simple_tf_kinematics[0m
+[1.911s] [ 50%] Built target simple_service_client
+[1.923s] [ 62%] Built target simple_service_server
+[1.931s] [ 75%] Built target simple_tf_kinematics
+[1.938s] [35m[1mConsolidate compiler generated dependencies of target simple_lifecycle_node[0m
+[1.949s] [ 87%] Built target simple_turtlesim_kinematics
+[1.956s] [100%] Built target simple_lifecycle_node
+[1.963s] Invoked command in '/home/ubuntu/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[1.980s] Invoking command in '/home/ubuntu/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/bumperbot_ws/build/bumperbot_cpp_examples
+[1.986s] -- Install configuration: ""
+[1.986s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/include/include
+[1.986s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[1.986s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[1.987s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+[1.987s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[1.988s] -- Set runtime path of "/home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""
+[1.988s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[1.990s] -- Set runtime path of "/home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""
+[1.990s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[1.990s] -- Set runtime path of "/home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter" to ""
+[1.990s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[1.992s] -- Set runtime path of "/home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics" to ""
+[1.992s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server
+[1.993s] -- Set runtime path of "/home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server" to ""
+[1.993s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client
+[1.993s] -- Set runtime path of "/home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client" to ""
+[1.993s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+[1.997s] -- Set runtime path of "/home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics" to ""
+[1.997s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node
+[1.999s] -- Set runtime path of "/home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node" to ""
+[2.001s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[2.001s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[2.001s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[2.001s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[2.001s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[2.001s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[2.001s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[2.001s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[2.001s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[2.001s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[2.001s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[2.001s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[2.001s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[2.001s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[2.001s] -- Installing: /home/ubuntu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[2.004s] Invoked command in '/home/ubuntu/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/bumperbot_ws/build/bumperbot_cpp_examples

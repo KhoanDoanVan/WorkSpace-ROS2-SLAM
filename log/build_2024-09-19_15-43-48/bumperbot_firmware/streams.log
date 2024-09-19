@@ -1,0 +1,46 @@
+[0.022s] Invoking command in '/home/ubuntu/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/bumperbot_ws/build/bumperbot_firmware -- -j4 -l4
+[0.055s] [ 16%] [32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.o[0m
+[0.057s] [ 33%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[0.083s] [ 50%] Built target ament_cmake_python_copy_bumperbot_firmware
+[0.515s] running egg_info
+[0.516s] writing bumperbot_firmware.egg-info/PKG-INFO
+[0.528s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[0.528s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[0.530s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.530s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.608s] [ 50%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[6.605s] [ 66%] [32m[1mLinking CXX shared library libbumperbot_firmware.so[0m
+[6.931s] [ 83%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[6.961s] [ 83%] Built target bumperbot_firmware
+[7.110s] /usr/bin/ld: CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o: in function `SimpleSerialReceiver::SimpleSerialReceiver()':
+[7.111s] simple_serial_receiver.cpp:(.text._ZN20SimpleSerialReceiverC2Ev[_ZN20SimpleSerialReceiverC5Ev]+0xec): undefined reference to `LibSerial::SerialPort::SerialPort()'
+[7.111s] /usr/bin/ld: simple_serial_receiver.cpp:(.text._ZN20SimpleSerialReceiverC2Ev[_ZN20SimpleSerialReceiverC5Ev]+0x244): undefined reference to `LibSerial::SerialPort::Open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode const&)'
+[7.111s] /usr/bin/ld: simple_serial_receiver.cpp:(.text._ZN20SimpleSerialReceiverC2Ev[_ZN20SimpleSerialReceiverC5Ev]+0x264): undefined reference to `LibSerial::SerialPort::SetBaudRate(LibSerial::BaudRate const&)'
+[7.112s] /usr/bin/ld: simple_serial_receiver.cpp:(.text._ZN20SimpleSerialReceiverC2Ev[_ZN20SimpleSerialReceiverC5Ev]+0x4ac): undefined reference to `LibSerial::SerialPort::~SerialPort()'
+[7.112s] /usr/bin/ld: CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o: in function `SimpleSerialReceiver::~SimpleSerialReceiver()':
+[7.112s] simple_serial_receiver.cpp:(.text._ZN20SimpleSerialReceiverD2Ev[_ZN20SimpleSerialReceiverD5Ev]+0x24): undefined reference to `LibSerial::SerialPort::Close()'
+[7.112s] /usr/bin/ld: simple_serial_receiver.cpp:(.text._ZN20SimpleSerialReceiverD2Ev[_ZN20SimpleSerialReceiverD5Ev]+0x30): undefined reference to `LibSerial::SerialPort::~SerialPort()'
+[7.112s] /usr/bin/ld: CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o: in function `SimpleSerialReceiver::timerCallback()':
+[7.112s] simple_serial_receiver.cpp:(.text._ZN20SimpleSerialReceiver13timerCallbackEv[_ZN20SimpleSerialReceiver13timerCallbackEv]+0x50): undefined reference to `LibSerial::SerialPort::IsDataAvailable()'
+[7.113s] /usr/bin/ld: simple_serial_receiver.cpp:(.text._ZN20SimpleSerialReceiver13timerCallbackEv[_ZN20SimpleSerialReceiver13timerCallbackEv]+0xa4): undefined reference to `LibSerial::SerialPort::ReadLine(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char, unsigned long)'
+[7.161s] collect2: error: ld returned 1 exit status
+[7.163s] gmake[2]: *** [CMakeFiles/simple_serial_receiver.dir/build.make:159: simple_serial_receiver] Error 1
+[7.164s] gmake[1]: *** [CMakeFiles/Makefile2:222: CMakeFiles/simple_serial_receiver.dir/all] Error 2
+[7.165s] gmake[1]: *** Waiting for unfinished jobs....
+[12.381s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[12.581s] /usr/bin/ld: CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o: in function `SimpleSerialTransmitter::SimpleSerialTransmitter()':
+[12.581s] simple_serial_transmitter.cpp:(.text._ZN23SimpleSerialTransmitterC2Ev[_ZN23SimpleSerialTransmitterC5Ev]+0xe0): undefined reference to `LibSerial::SerialPort::SerialPort()'
+[12.582s] /usr/bin/ld: simple_serial_transmitter.cpp:(.text._ZN23SimpleSerialTransmitterC2Ev[_ZN23SimpleSerialTransmitterC5Ev]+0x328): undefined reference to `LibSerial::SerialPort::Open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode const&)'
+[12.582s] /usr/bin/ld: simple_serial_transmitter.cpp:(.text._ZN23SimpleSerialTransmitterC2Ev[_ZN23SimpleSerialTransmitterC5Ev]+0x348): undefined reference to `LibSerial::SerialPort::SetBaudRate(LibSerial::BaudRate const&)'
+[12.582s] /usr/bin/ld: simple_serial_transmitter.cpp:(.text._ZN23SimpleSerialTransmitterC2Ev[_ZN23SimpleSerialTransmitterC5Ev]+0x448): undefined reference to `LibSerial::SerialPort::~SerialPort()'
+[12.582s] /usr/bin/ld: CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o: in function `SimpleSerialTransmitter::~SimpleSerialTransmitter()':
+[12.582s] simple_serial_transmitter.cpp:(.text._ZN23SimpleSerialTransmitterD2Ev[_ZN23SimpleSerialTransmitterD5Ev]+0x24): undefined reference to `LibSerial::SerialPort::Close()'
+[12.583s] /usr/bin/ld: simple_serial_transmitter.cpp:(.text._ZN23SimpleSerialTransmitterD2Ev[_ZN23SimpleSerialTransmitterD5Ev]+0x30): undefined reference to `LibSerial::SerialPort::~SerialPort()'
+[12.583s] /usr/bin/ld: CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o: in function `SimpleSerialTransmitter::msgCallback(std_msgs::msg::String_<std::allocator<void> > const&)':
+[12.583s] simple_serial_transmitter.cpp:(.text._ZN23SimpleSerialTransmitter11msgCallbackERKN8std_msgs3msg7String_ISaIvEEE[_ZN23SimpleSerialTransmitter11msgCallbackERKN8std_msgs3msg7String_ISaIvEEE]+0x1d0): undefined reference to `LibSerial::SerialPort::Write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[12.617s] collect2: error: ld returned 1 exit status
+[12.618s] gmake[2]: *** [CMakeFiles/simple_serial_transmitter.dir/build.make:159: simple_serial_transmitter] Error 1
+[12.618s] gmake[1]: *** [CMakeFiles/Makefile2:248: CMakeFiles/simple_serial_transmitter.dir/all] Error 2
+[12.624s] gmake: *** [Makefile:146: all] Error 2
+[12.668s] Invoked command in '/home/ubuntu/bumperbot_ws/build/bumperbot_firmware' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/bumperbot_ws/build/bumperbot_firmware -- -j4 -l4
